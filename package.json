@@ -1,0 +1,16 @@
+{
+  "name": "notionintegrationtest",
+  "version": "1.0.0",
+  "description": "Testing the Notion API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --env-file=.env.development index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@notionhq/client": "^2.2.15",
+    "dotenv": "^16.4.5"
+  }
+}
